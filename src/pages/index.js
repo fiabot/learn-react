@@ -4,11 +4,11 @@
 import styles from '@/styles/Home.module.css'
 import Profile from './components/profile'
 import RecipeList from './qcomps/recipes'
-
+import MenuBar from './qcomps/menuBar'
 export default function Home() {
   return (
     <div className={styles.main}>
-        <RecipeList/>
+        <MenuBar/>
     </div>
   )
 }
