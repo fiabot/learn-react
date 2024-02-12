@@ -14,7 +14,7 @@ export const recipes = [{
 
 const getIncredientList = (recipe) => {
   const listItems = Array.from(recipe.ingredients).map(incredient => {return(
-    <li key = {incredient}>
+    <li key = {recipe.id + incredient}>
       {incredient}
     </li>);
   });
